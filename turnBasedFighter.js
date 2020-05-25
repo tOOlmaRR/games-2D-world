@@ -4,7 +4,6 @@
 */
 
 // import readline-sync package
-// "npm install --save readline-sync" in Node to install
 let readlineSync = require('readline-sync');
 
 // get user input about their character
