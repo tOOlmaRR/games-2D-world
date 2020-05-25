@@ -2,7 +2,6 @@ const Dragons = require('./Dragon.js');
 const Wall = require('./Wall.js');
 
 // import readline-sync package
-// "npm install --save readline-sync" in Node to install
 let readlineSync = require('readline-sync');
 
 // Ask user to set up a wall with a height, strength and weakness

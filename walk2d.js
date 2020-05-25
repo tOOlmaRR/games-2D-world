@@ -1,5 +1,4 @@
 // import readline-sync package
-// "npm install --save readline-sync" in Node to install
 let readlineSync = require('readline-sync');
 
 // print out the world to the display
