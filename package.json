@@ -1,0 +1,23 @@
+{
+  "name": "games-2d-world",
+  "version": "1.0.0",
+  "description": "Initial plans here is to build a 2D RPG game based on a few exercises completed in a few eLearning courses and other ideas that have been floating around in my head for years.",
+  "main": "walk2d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tOOlmaRR/games-2D-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tOOlmaRR/games-2D-world/issues"
+  },
+  "homepage": "https://github.com/tOOlmaRR/games-2D-world#readme",
+  "dependencies": {
+    "readline-sync": "~1.4"
+  }
+}
