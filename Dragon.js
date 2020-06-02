@@ -1,10 +1,4 @@
-/*
-Create a dragon class that has the following properties:
-- name
-- damage
-- type
-Also write a method that allows the dragon to attack a wall. This method should cause the dragon make some sound, then inflict damage onto the wall
-*/
+
 class Dragon
 {
     constructor(name, damage) {
@@ -25,7 +19,7 @@ class Dragon
             console.log(`The wall is weak against ${wall.weakness} attacks... double-damage taken!`);
             actualDamage = this.damage * 2;
         } else {
-            // normal damage
+            // normal (ie. unadjusted) damage
             actualDamage = this.damage;
         }
         wall.takeDamage(actualDamage);

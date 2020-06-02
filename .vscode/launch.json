@@ -21,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\game.js",
+            "program": "${workspaceFolder}\\wallSiege.js",
             "console": "integratedTerminal"
         },
         {
@@ -31,7 +31,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\turnBasedFighter.js",
+            "program": "${workspaceFolder}\\turnBasedFight.js",
             "console": "integratedTerminal"
         },
     ]
