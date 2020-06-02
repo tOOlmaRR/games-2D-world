@@ -10,8 +10,8 @@ const printOutWorld = world => {
 }
 
 // write a specific character to a certain position in the world
-const writeToWorld = (world, row, column, char) => {
-    world[row][column] = char;
+const writeToWorld = (worldToDisplay, row, column, char) => {
+    worldToDisplay[row][column] = char;
 }
 
 
@@ -39,7 +39,7 @@ let userWishesToContinue = true;
 while (true) {
     // ask user for their move direction
     let input = readlineSync.question(
-        '\n\nWhich direction would would you like to go (left,right,up,down,nowhere), or "quit" to quit): '
+        '\n\nWhich direction would would you like to go (left,right,up,down), or "quit" to quit): '
     );
 
     // nullify player's current Position
@@ -64,12 +64,7 @@ while (true) {
     else if (input === 'down' && rowPosition < worldLength - 1) {
         rowPosition += 1;
     }
-    
-    // move the player NO WHERE
-    else if (input === 'nowhere') {
-        
-    }
-    
+   
     // user wants to quit
     else if (input === 'quit') {
         break;
