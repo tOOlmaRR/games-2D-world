@@ -2,10 +2,10 @@
 let readlineSync = require('readline-sync');
 
 // print out the world to the display
-const printOutWorld = world => {
+const printOutWorld = worldToPrint => {
     // iterate on each row
-    for (let i = 0; i < world.length; i++) {
-        console.log(world[i]);
+    for (let i = 0; i < worldToPrint.length; i++) {
+        console.log(worldToPrint[i]);
     }
 }
 
