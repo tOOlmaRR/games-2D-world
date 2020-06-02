@@ -1,3 +1,8 @@
+/* Wall Siege Simulation
+- allows player to design a wall and a fleet of dragons that will attack the wall
+- simulates the attack and detrmines whether or not the dragons were successful at destroying the wall
+*/
+
 const Dragons = require('./Dragon.js');
 const Wall = require('./Wall.js');
 
